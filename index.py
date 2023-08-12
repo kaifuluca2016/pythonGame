@@ -43,7 +43,7 @@ def hasCollision(myBodyShape, dangerCollections):
     return False
 
 
-def drawText(text, font, surface, x, y):p
+def drawText(text, font, surface, x, y):
     textobj = font.render(text, 1, cTextColor)
     textrect = textobj.get_rect()
     textrect.topleft = (x, y)
